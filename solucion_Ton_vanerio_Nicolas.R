@@ -113,7 +113,7 @@ merge_data_total <- merge_data_total %>%
 
 # NOTA TP. Ruta del archivo. Ver enunciado
 #exportar csv
-# write.csv(merge_data_total,'../Ton_Vanerio_Nicolas_tpalgoritmos/homicidios_dolosos_agrupados.csv', row.names = FALSE)
+# write.csv(merge_data_total,'../homicidios_dolosos_agrupados.csv', row.names = FALSE)
 write.csv(merge_data_total,'homicidios_dolosos_agrupados.csv', row.names = FALSE)
 ############################################################################
 #PUNTO B
@@ -234,7 +234,7 @@ merge_comunas <- merge_comunas%>%mutate(tasa_victimas_100k=(total_victimas*1000/
 
 # NOTA TP. Ruta del archivo. Ver enunciado
 #exportar csv
-# write.csv(merge_comunas,'../Ton_Vanerio_Nicolas_tpalgoritmos/caba_2022_agrupado.csv', row.names = FALSE)
+# write.csv(merge_comunas,'../caba_2022_agrupado.csv', row.names = FALSE)
 write.csv(merge_comunas, 'caba_2022_agrupado.csv', row.names = FALSE)
 ############################################################################
 
