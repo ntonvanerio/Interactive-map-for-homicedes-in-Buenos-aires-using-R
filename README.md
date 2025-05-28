@@ -18,4 +18,4 @@ This project was designed as a portfolio example for data visualization and geos
 
 
 ## 🧠 Author
-Nicolás Ton Vanerio – Data Scienc
+Nicolás Ton Vanerio – Data Scientist
